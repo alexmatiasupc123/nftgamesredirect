@@ -24,18 +24,12 @@ div[class*="item-"] {
 }
 
 
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
     div[class*="item-"] {      
         flex-basis: 100%;  
         
      }
-}
-
-/* div[class*="item-"] {      
-   flex-basis: 100%;  
-   
-} 
-*/
+} */
 
 div[class="item-4"] {    
     flex-grow: 2;
@@ -50,7 +44,7 @@ div[class*="subitem-"] {
     justify-content: center;
     display: flex;
     color:black;
-    font-size: 40px;
+    font-size: 30px;
     font-family: sans-serif;
     align-items: center;
 }
@@ -63,16 +57,11 @@ div[class="subitem-42"] {
     flex-grow: 4;
 }
 
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
     div[class*="subitem-"] {  
         flex-grow: 1;
         flex-basis: 100vh;         
     }
-}
+} */
 
-/* div[class*="subitem-"] {  
-    flex-grow: 1;
-    flex-basis: 100vh;         
-}
- */
 
